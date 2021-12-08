@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pp"
+        android:id="@+id/profile_pic"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="5dp"
+        app:riv_corner_radius="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kamlesh Jangley"
+        android:layout_below="@+id/profile_pic"
+        android:id="@+id/user_name"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="20dp"
+        android:textColor="@color/colortextfirst"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/user_name"
+        android:background="@color/color_view"/>
+
+
+
+</RelativeLayout>

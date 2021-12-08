@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ECommerce</string>
+    <string name="OTP_Veri">OTP Verfication</string>
+    <string name="Otp_ver_txt">We will send you an otp on this given mobile number</string>
+    <string name="enter_mobile_number">Enter Mobile number</string>
+    <string name="otp_verfication">OTP Verfication</string>
+    <string name="please_enter_the_otp_sent_to_you">Please enter the OTP sent to you</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
